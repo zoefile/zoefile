@@ -1,0 +1,112 @@
+/* Basislayout */
+
+html, body {
+    height: 100%;
+    padding: 0;
+    background-color: rgb(247, 243, 222);  
+    
+    color: #000000;
+    font: Verdana, Arial, Sans-Serif;
+}
+
+
+main {
+    margin: 0 auto;
+    width: 900px;
+    position: relative;
+}
+
+
+article {
+    text-align: justify;
+}
+
+
+header {
+    color: rgb(247, 222, 245);
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* specifieke stijlen */
+
+img.zweefLinks {
+    float: left;
+    margin-right: 15px;
+}
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+a {
+    color: rgb(247, 222, 245);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(247, 222, 245);
+}
+
+
+/* navigatiebalk */
+nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+nav ul li {
+    width: 175px;
+    height: 30px;
+    line-height: 30px;
+    background-color: hsl(0, 0%, 0%);
+    float: left;
+    position: relative;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: rgb(247, 222, 245);
+}
+
+nav li.active {
+    background-color: rgb(247, 222, 245);
+}
+
+.HartBlack {
+    color: black;
+}
+
+.text{
+    text-align: center;
+}
+
+h1{
+   font-family: 'Seaweed Script', cursive;
+}
+
+.block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    width: 250px;
+    margin: auto;
+    margin-top: 30px;
+}
